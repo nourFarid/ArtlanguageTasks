@@ -19,4 +19,5 @@ public class EmailController {
         sendEmailService.sendEmail(emailRequest.getTo(),emailRequest.getSubject(),emailRequest.getBody());
         return "SENT SUCCESSFULLY";
     }
+    
 }
